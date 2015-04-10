@@ -1,0 +1,14 @@
+Archivo de configuración para los parámetros del algoritmo MOACS.
+criterio_parada = 1
+limite_parada = 120
+HORMIGAS = 10
+ALFA = 1
+BETA = 2
+RHO = 0.1
+Q0 = 0.5
+TAU0 = 1
+GAMMA = 0.3
+LAMBDA = 0.8
+TMAX = 0.9
+OMICRON = 10
+K = 100

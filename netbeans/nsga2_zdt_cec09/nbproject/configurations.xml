@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="80">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="nsga2-gnuplot-v1.1.5"
+                   displayName="nsga2-gnuplot-v1.1.5"
+                   projectFiles="true">
+      <itemPath>../../hs_vs_nsga2/nsga2_zdt_cec09/nsga2-gnuplot-v1.1.5/allocate.c</itemPath>
+      <itemPath>../../hs_vs_nsga2/nsga2_zdt_cec09/nsga2-gnuplot-v1.1.5/auxiliary.c</itemPath>
+      <itemPath>../../hs_vs_nsga2/nsga2_zdt_cec09/nsga2-gnuplot-v1.1.5/crossover.c</itemPath>
+      <itemPath>../../hs_vs_nsga2/nsga2_zdt_cec09/nsga2-gnuplot-v1.1.5/crowddist.c</itemPath>
+      <itemPath>../../hs_vs_nsga2/nsga2_zdt_cec09/nsga2-gnuplot-v1.1.5/decode.c</itemPath>
+      <itemPath>../../hs_vs_nsga2/nsga2_zdt_cec09/nsga2-gnuplot-v1.1.5/display.c</itemPath>
+      <itemPath>../../hs_vs_nsga2/nsga2_zdt_cec09/nsga2-gnuplot-v1.1.5/dominance.c</itemPath>
+      <itemPath>../../hs_vs_nsga2/nsga2_zdt_cec09/nsga2-gnuplot-v1.1.5/eval.c</itemPath>
+      <itemPath>../../hs_vs_nsga2/nsga2_zdt_cec09/nsga2-gnuplot-v1.1.5/fillnds.c</itemPath>
+      <itemPath>../../hs_vs_nsga2/nsga2_zdt_cec09/nsga2-gnuplot-v1.1.5/global.h</itemPath>
+      <itemPath>../../hs_vs_nsga2/nsga2_zdt_cec09/nsga2-gnuplot-v1.1.5/initialize.c</itemPath>
+      <itemPath>../../hs_vs_nsga2/nsga2_zdt_cec09/nsga2-gnuplot-v1.1.5/list.c</itemPath>
+      <itemPath>../../hs_vs_nsga2/nsga2_zdt_cec09/nsga2-gnuplot-v1.1.5/merge.c</itemPath>
+      <itemPath>../../hs_vs_nsga2/nsga2_zdt_cec09/nsga2-gnuplot-v1.1.5/mutation.c</itemPath>
+      <itemPath>../../hs_vs_nsga2/nsga2_zdt_cec09/nsga2-gnuplot-v1.1.5/nsga2r.c</itemPath>
+      <itemPath>../../hs_vs_nsga2/nsga2_zdt_cec09/nsga2-gnuplot-v1.1.5/problemdef.c</itemPath>
+      <itemPath>../../hs_vs_nsga2/nsga2_zdt_cec09/nsga2-gnuplot-v1.1.5/rand.c</itemPath>
+      <itemPath>../../hs_vs_nsga2/nsga2_zdt_cec09/nsga2-gnuplot-v1.1.5/rand.h</itemPath>
+      <itemPath>../../hs_vs_nsga2/nsga2_zdt_cec09/nsga2-gnuplot-v1.1.5/rank.c</itemPath>
+      <itemPath>../../hs_vs_nsga2/nsga2_zdt_cec09/nsga2-gnuplot-v1.1.5/report.c</itemPath>
+      <itemPath>../../hs_vs_nsga2/nsga2_zdt_cec09/nsga2-gnuplot-v1.1.5/sort.c</itemPath>
+      <itemPath>../../hs_vs_nsga2/nsga2_zdt_cec09/nsga2-gnuplot-v1.1.5/tourselect.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../../hs_vs_nsga2/nsga2_zdt_cec09/nsga2-gnuplot-v1.1.5</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+      </compileType>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>
